@@ -97,15 +97,15 @@ export default class HumanScene extends THREE.Scene {
     const cube = new THREE.Mesh(geometry, material);
     cube.position.set(0, -3, -10);
 
-    const human = new Human();
-    human.position.set(0, 0, 0);
+    // const human = new Human();
+    // human.position.set(0, 0, 0);
 
-    this.add(human);
+    // this.add(human);
   }
 
   update() {
-    const human = this.children[0] as Human;
-    human.swingLeftArm();
-    human.swingRightArm();
+    // const human = this.children[0] as Human;
+    // human.swingLeftArm();
+    // human.swingRightArm();
   }
 }
